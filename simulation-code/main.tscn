@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://btom83t6iitv1"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_7dm0k"]
+
+[node name="Node2D" type="Node2D" unique_id=2101056727]
+
+[node name="TestEntity" type="CollisionShape2D" parent="." unique_id=2101936323]
+position = Vector2(40, -40)
+shape = SubResource("CircleShape2D_7dm0k")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1613623774]
